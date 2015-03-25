@@ -1,0 +1,84 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Layout Styles
+ * ----------------------------------------------------------------------------------------
+ */
+
+/* Helper Classes */
+.l-clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.l-align-left {
+  float: left;
+}
+
+.l-align-right {
+  float: right;
+}
+
+.l-align-center {
+  text-align: center;
+}
+
+.l-vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+//  CONTAINER
+.container {
+  width:1200px;
+ margin:auto;
+}
+
+/* Flexbox Classes*/
+.l-box {
+  display:flex;
+
+    .start {
+      justify-content:flex-start;
+    }
+
+    .end {
+      justify-content:flex-end;
+    }
+
+    .center {
+      justify-content:flex-center;
+    }
+
+    .around {
+      justify-content:space-around;
+    }
+
+    .between {
+      justify-content:space-between;
+    }
+}
+
+
+.centered-row {
+flex-direction:row;
+flex-wrap:wrap;
+align-items:center;
+justify-content:space-between;
+}
+
+s
+.flex-col {
+flex-direction:collumn;
+}
+
+
+
+/*Lists*/
+
+.l-inline-list {
+  > li {
+    margin-right: .5em;
+    display: inline-block;
+  }
+}
