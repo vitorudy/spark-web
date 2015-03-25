@@ -3,16 +3,26 @@
 .features {
   text-align: center;
   background-color: @bg-gray;
+  width:100%;
+  .row {
+    text-align: center;
+
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 7%;
+  }
 }
 
 .col1 {
-  padding-top: 40px;
-  text-align: center;
-  width: 248px;
+padding-top: 40px;
+text-align: center;
+width: 248px;
+margin-right: 25px;
+margin-left: 25px;
 }
 
 .icn {
-  margin:0 auto 20px auto;
+  margin:0 auto 10px auto;
   width: 68px;
   height: 68px;
   border: 2px solid #AEAEAE;
@@ -23,4 +33,9 @@
     margin: 0;
     text-align: center;
   }
+}
+
+.col1:nth-of-type(4n) {
+ // margin-left:16%;
+ margin-left:174px;
 }
